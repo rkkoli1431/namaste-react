@@ -1,0 +1,73 @@
+ This is the simple html program =>
+ 
+ <div id="root">
+        <script>
+            const heading = document.createElement("h1");
+            heading.innerHTML = "Hello CodeChamp's 🫰";
+            const root = document.getElementById("root");
+            root.appendChild(heading);
+        </script>
+    </div>
+
+
+
+    // const heading = React.createElement(
+//     "h1",
+//     {id:"hii"},     // this statement give the id , class what wer give them all of these in real world is nothing but object 
+//     "Namaste CodeChamp's 🫰"
+// );
+
+
+// ReactElement is (Object) => HTML(Browser Understand)
+
+const parent = React.createElement("div",{id:"parent"},[
+    React.createElement("div",{id:"child"},[
+        React.createElement("h1",{},"I am just h1 tag"),
+        React.createElement("h1",{},"I am second h1 tag"),
+        ]),
+
+        React.createElement("div",{id:"child"},[
+            React.createElement("h1",{},"I am just h1 tag"),
+            React.createElement("h1",{},"I am second h1 tag"),
+            ]),
+]);
+
+// react only return a jsx
+// this is core code in react
+console.log(parent); // object
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(parent);  
+
+    // what is root.render =>
+
+===================================================================================================================
+
+    parcel => is a such beast 
+
+ # npm => is package manager to bundler all all package the in our app 
+ # git init 
+ # npm install -D parcle
+ 
+ # There are Two Types of dev dependacies  in our app 
+  1. dev dependacies
+  2. normale dependacies
+
+ ^ => (karet) it is use to the requred the development phase (If in that case parcel to change the version to automatically getting the version )
+ ~ => (tilld) mager version change 
+
+ * Interview IMP *
+
+Q . What is different between package.json & package-lock-json
+
+1. package-lock-json => is manage the exactly stay in verison in our app 
+2. package.json => is configration files or dependacies
+
+3. node-mdules => like databse to store the data    all are packages exits 
+
+    Or node-modules is collection of dependacies its like of database 
+
+* run this app using parcel to hit command  => ignating the app
+Ex - npx parcel index.html
+
+    npx => any excuting the package the parcel 
+    npm => install the packge 
