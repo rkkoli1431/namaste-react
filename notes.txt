@@ -42,6 +42,21 @@ console.log(parent); // object
 
 ===================================================================================================================
 
+Installation Steps => React App Using Parcel 
+
+1 => git init
+2 => git branch -M main
+3 => git add .
+4 => git commit -m "test"
+5 => git remote 
+6 => git push repository on git hub
+
+npm =>
+1 => npm init
+2 => npm install -D parcel
+3 => 
+
+
     parcel => is a such beast 
 
  # npm => is package manager to bundler all all package the in our app 
