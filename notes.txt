@@ -53,8 +53,8 @@ Installation Steps => React App Using Parcel
 
 npm =>
 1 => npm init
-2 => npm install -D parcel
-3 => 
+2 => npm install -D parcel  => create the node mudules 
+3 => npx parcel index.html   => start the app 
 
 
     parcel => is a such beast 
