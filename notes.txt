@@ -55,6 +55,9 @@ npm =>
 1 => npm init
 2 => npm install -D parcel  => create the node mudules 
 3 => npx parcel index.html   => start the app 
+4 => npm install react 
+5 => npm install react-dom
+6 => npx parcel build index.html  => to show the eroor app.js
 
 
     parcel => is a such beast 
